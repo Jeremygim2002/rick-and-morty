@@ -1,0 +1,35 @@
+/* Puedes dejar este archivo casi vacío */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Orbitron', sans-serif;
+    background: radial-gradient(circle at top, #1e293b, #0f172a);
+    color: white;
+}
+
+.rick-card {
+    border: 2px solid #00ff9c;
+    transition: transform 0.2s ease;
+}
+
+.rick-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #00ff9c;
+}
+
+.badge-alive {
+    background-color: #28a745;
+}
+
+.badge-dead {
+    background-color: #dc3545;
+}
+
+.badge-unknown {
+    background-color: #ffc107;
+    color: black;
+}
